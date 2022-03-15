@@ -1,0 +1,23 @@
+<html>
+    <head>
+      <title>100 to 1</title>
+    </head>
+    <body>
+      <h1>Question: {{ question }}</h1>
+	  {% if answer %}
+	    <div>Your answer: {{ answer }} was given {{ frequency }} times!</div>
+	  {% endif %}
+	  <form action="" method="post" novalidate>
+	    {{ form.hidden_tag() }}
+	    {% if form.answer %}
+          <p>
+            {{ form.answer.label }}<br>
+            {{ form.answer(size=32) }}
+          </p>
+		{% endif %}
+        <p>
+		  {{ form.submit() }}
+		</p>
+    </form>
+    </body>
+</html>
