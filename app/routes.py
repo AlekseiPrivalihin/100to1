@@ -5,12 +5,6 @@ import random
 from app import db
 from app.models import Question, Answer, Alias
 
-question_pool = ['Name a reason you might get rid of an old family heirloom.',
-                 'Where do kids nowadays spend most of their time?',
-                 'Tell me something many people do just once a week.',
-                 'Name a reason a person might wake up at 2:00 in the morning.',
-                 'Name something you might eat with a hamburger.'] # TODO: DB
-
 @app.route('/', methods=['GET', 'POST'])
 def home():
     n_questions = len(Question.query.all())
