@@ -1,0 +1,11 @@
+This is a game of 100 to 1, also known as Family Feud
+The goal is to answer a given question in a way that aligns with the way most of the 100 randomly asked people answered it.
+____
+To run this game you need Python 3+ installed along with Flask, Flask-WTF, Flask-SQLAlchemy and Flask-Migrate.
+After cloning the repository run (in shell from the game's root directory)
+- set FLASK_APP=game.py (for Windows. For Linux use 'export' instead of 'set')
+- flask db init
+- flask db migrate
+- flask db upgrade
+- python db_setup.py
+- flask run

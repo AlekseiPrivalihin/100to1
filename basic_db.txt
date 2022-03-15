@@ -1,0 +1,23 @@
+#Name a reason you might get rid of an old family heirloom.
+broken|broken;it broke|29
+ugly|ugly;hideous|22
+divorce|divorce|18
+sell/need money|sell;money;pawn|12
+too much stuff|cramped;space;room;storage;too much|10
+family feud|family feud|5
+moving|moving|2
+#Where do kids nowadays spend most of their time?
+room/bed|room;bed;sofa;couch|28
+school|school;studying;classes|22
+internet|internet;computer;web;phone|16
+mall|mall;shopping;shop;store|12
+friend's house|friend;friends;other kids|10
+park|park;walk;outside|4
+work|work;working;job;earning|4
+#Tell me something many people do just once a week.
+church|church;pray|35
+groceries/shopping|groceries;store;shopping|24
+laundry|laundry;wash clothes;washing clothes|12
+clean the house|clean;vacuum;mop|6
+sleep in|sleep in|6
+eat out|eat out;restaraunt;cafe|4
